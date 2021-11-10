@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0a62e16e-283e-485b-910e-b9b56f7ef7b8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_XL_API_30]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/dolphinlib">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/stomp-client-lib">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Dolphin Chat" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="doni/staging" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1pBpj3uxT48xRwUMlybWJeTnhkd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_XL_API_30" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-11-09T04:43:37.763Z" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/dolphinlib/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dolphinlib/src/main/res" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="Dolphin_Chat.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dolphinlib" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="Dolphin_Chat.dolphinlib" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stomp-client-lib" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="Dolphin_Chat.stomp-client-lib" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stomp-protocol-android" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="Dolphin_Chat.stomp-protocol-android" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Android-Native-Chat:dolphinlib [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/dolphinlib" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Android-Native-Chat:stomp-client-lib [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/stomp-client-lib" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Android-Native-Chat:dolphinlib [assemble]" />
+        <item itemvalue="Gradle.Android-Native-Chat:stomp-client-lib [assemble]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a62e16e-283e-485b-910e-b9b56f7ef7b8" name="Default Changelist" comment="" />
+      <created>1614666469583</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614666469583</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="245" y="173" key="#PSD" timestamp="1636439044011">
+      <screen x="0" y="25" width="1440" height="812" />
+    </state>
+    <state x="245" y="172" key="#PSD/0.23.1440.820@0.23.1440.820" timestamp="1633330113343" />
+    <state x="245" y="173" key="#PSD/0.25.1440.812@0.25.1440.812" timestamp="1636439044011" />
+    <state x="184" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633318239270">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="184" y="95" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.820/1440.23.1366.745@0.23.1440.820" timestamp="1633318239270" />
+    <state x="520" y="364" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1633329358126">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="520" y="364" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.820@0.23.1440.820" timestamp="1633329358126" />
+    <state x="444" y="309" width="552" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1633329281520">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="444" y="309" width="552" height="256" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.820@0.23.1440.820" timestamp="1633329281520" />
+    <state x="458" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1633342266636">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="458" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.820@0.23.1440.820" timestamp="1633342266636" />
+    <state x="100" y="124" width="1241" height="615" key="AVDManager" timestamp="1636518441095">
+      <screen x="0" y="25" width="1440" height="812" />
+    </state>
+    <state x="100" y="123" width="1240" height="620" key="AVDManager/0.23.1440.820/1440.23.1366.745@0.23.1440.820" timestamp="1633082083626" />
+    <state x="1535" y="114" width="1177" height="564" key="AVDManager/0.23.1440.820/1440.23.1366.745@1440.23.1366.745" timestamp="1633424810047" />
+    <state x="100" y="123" width="1240" height="620" key="AVDManager/0.23.1440.820/1440.23.1920.1057@0.23.1440.820" timestamp="1632992919538" />
+    <state x="100" y="123" width="1240" height="620" key="AVDManager/0.23.1440.820@0.23.1440.820" timestamp="1633360777755" />
+    <state x="100" y="124" width="1241" height="615" key="AVDManager/0.25.1440.812/1440.25.1920.1055@0.25.1440.812" timestamp="1636518441095" />
+    <state x="100" y="124" width="1241" height="615" key="AVDManager/0.25.1440.812@0.25.1440.812" timestamp="1636435918300" />
+    <state x="308" y="195" key="AndroidCreateResourceDirectoryDialog" timestamp="1635436745072">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="308" y="195" key="AndroidCreateResourceDirectoryDialog/0.23.1440.820@0.23.1440.820" timestamp="1635436745072" />
+    <state width="1398" height="276" key="GridCell.Tab.0.bottom" timestamp="1636518492428">
+      <screen x="0" y="25" width="1440" height="812" />
+    </state>
+    <state width="1398" height="262" key="GridCell.Tab.0.bottom/0.23.1440.820/1440.23.1366.745@0.23.1440.820" timestamp="1633082506914" />
+    <state width="1324" height="282" key="GridCell.Tab.0.bottom/0.23.1440.820/1440.23.1366.745@1440.23.1366.745" timestamp="1633420787361" />
+    <state width="1398" height="306" key="GridCell.Tab.0.bottom/0.23.1440.820/1440.23.1920.1057@0.23.1440.820" timestamp="1633000204234" />
+    <state width="1398" height="282" key="GridCell.Tab.0.bottom/0.23.1440.820@0.23.1440.820" timestamp="1635446402709" />
+    <state width="1398" height="262" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1366.688@0.23.1440.877" timestamp="1633084912538" />
+    <state width="1398" height="276" key="GridCell.Tab.0.bottom/0.25.1440.812/1440.25.1366.743@0.25.1440.812" timestamp="1636007575677" />
+    <state width="1398" height="276" key="GridCell.Tab.0.bottom/0.25.1440.812/1440.25.1920.1055@0.25.1440.812" timestamp="1636518492428" />
+    <state width="1398" height="276" key="GridCell.Tab.0.bottom/0.25.1440.812@0.25.1440.812" timestamp="1636469626793" />
+    <state width="1398" height="276" key="GridCell.Tab.0.center" timestamp="1636518492427">
+      <screen x="0" y="25" width="1440" height="812" />
+    </state>
+    <state width="1398" height="262" key="GridCell.Tab.0.center/0.23.1440.820/1440.23.1366.745@0.23.1440.820" timestamp="1633082506913" />
+    <state width="1324" height="282" key="GridCell.Tab.0.center/0.23.1440.820/1440.23.1366.745@1440.23.1366.745" timestamp="1633420787360" />
+    <state width="1398" height="306" key="GridCell.Tab.0.center/0.23.1440.820/1440.23.1920.1057@0.23.1440.820" timestamp="1633000204233" />
+    <state width="1398" height="282" key="GridCell.Tab.0.center/0.23.1440.820@0.23.1440.820" timestamp="1635446402709" />
+    <state width="1398" height="262" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1366.688@0.23.1440.877" timestamp="1633084912537" />
+    <state width="1398" height="276" key="GridCell.Tab.0.center/0.25.1440.812/1440.25.1366.743@0.25.1440.812" timestamp="1636007575676" />
+    <state width="1398" height="276" key="GridCell.Tab.0.center/0.25.1440.812/1440.25.1920.1055@0.25.1440.812" timestamp="1636518492427" />
+    <state width="1398" height="276" key="GridCell.Tab.0.center/0.25.1440.812@0.25.1440.812" timestamp="1636469626793" />
+    <state width="1398" height="276" key="GridCell.Tab.0.left" timestamp="1636518492427">
+      <screen x="0" y="25" width="1440" height="812" />
+    </state>
+    <state width="1398" height="262" key="GridCell.Tab.0.left/0.23.1440.820/1440.23.1366.745@0.23.1440.820" timestamp="1633082506912" />
+    <state width="1324" height="282" key="GridCell.Tab.0.left/0.23.1440.820/1440.23.1366.745@1440.23.1366.745" timestamp="1633420787359" />
+    <state width="1398" height="306" key="GridCell.Tab.0.left/0.23.1440.820/1440.23.1920.1057@0.23.1440.820" timestamp="1633000204233" />
+    <state width="1398" height="282" key="GridCell.Tab.0.left/0.23.1440.820@0.23.1440.820" timestamp="1635446402709" />
+    <state width="1398" height="262" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1366.688@0.23.1440.877" timestamp="1633084912537" />
+    <state width="1398" height="276" key="GridCell.Tab.0.left/0.25.1440.812/1440.25.1366.743@0.25.1440.812" timestamp="1636007575676" />
+    <state width="1398" height="276" key="GridCell.Tab.0.left/0.25.1440.812/1440.25.1920.1055@0.25.1440.812" timestamp="1636518492427" />
+    <state width="1398" height="276" key="GridCell.Tab.0.left/0.25.1440.812@0.25.1440.812" timestamp="1636469626792" />
+    <state width="1398" height="276" key="GridCell.Tab.0.right" timestamp="1636518492428">
+      <screen x="0" y="25" width="1440" height="812" />
+    </state>
+    <state width="1398" height="262" key="GridCell.Tab.0.right/0.23.1440.820/1440.23.1366.745@0.23.1440.820" timestamp="1633082506913" />
+    <state width="1324" height="282" key="GridCell.Tab.0.right/0.23.1440.820/1440.23.1366.745@1440.23.1366.745" timestamp="1633420787360" />
+    <state width="1398" height="306" key="GridCell.Tab.0.right/0.23.1440.820/1440.23.1920.1057@0.23.1440.820" timestamp="1633000204234" />
+    <state width="1398" height="282" key="GridCell.Tab.0.right/0.23.1440.820@0.23.1440.820" timestamp="1635446402709" />
+    <state width="1398" height="262" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1366.688@0.23.1440.877" timestamp="1633084912537" />
+    <state width="1398" height="276" key="GridCell.Tab.0.right/0.25.1440.812/1440.25.1366.743@0.25.1440.812" timestamp="1636007575677" />
+    <state width="1398" height="276" key="GridCell.Tab.0.right/0.25.1440.812/1440.25.1920.1055@0.25.1440.812" timestamp="1636518492428" />
+    <state width="1398" height="276" key="GridCell.Tab.0.right/0.25.1440.812@0.25.1440.812" timestamp="1636469626793" />
+    <state x="221" y="72" key="SettingsEditor" timestamp="1633361070507">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="221" y="72" key="SettingsEditor/0.23.1440.820/1440.23.1366.745@0.23.1440.820" timestamp="1633078521490" />
+    <state x="221" y="72" key="SettingsEditor/0.23.1440.820@0.23.1440.820" timestamp="1633361070507" />
+    <state x="497" y="218" width="699" height="430" key="chooseDestDirectoryDialog" timestamp="1633329314476">
+      <screen x="0" y="23" width="1440" height="820" />
+    </state>
+    <state x="497" y="218" width="699" height="430" key="chooseDestDirectoryDialog/0.23.1440.820@0.23.1440.820" timestamp="1633329314476" />
+    <state x="385" y="168" width="670" height="670" key="search.everywhere.popup" timestamp="1636517719925">
+      <screen x="0" y="25" width="1440" height="812" />
+    </state>
+    <state x="385" y="167" width="670" height="676" key="search.everywhere.popup/0.23.1440.820@0.23.1440.820" timestamp="1633341767577" />
+    <state x="385" y="177" width="670" height="723" key="search.everywhere.popup/0.23.1440.877/1440.23.1366.688@0.23.1440.877" timestamp="1633084860197" />
+    <state x="385" y="168" width="670" height="670" key="search.everywhere.popup/0.25.1440.812/1440.25.1920.1055@0.25.1440.812" timestamp="1636517719925" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.NaikSoftware/StompProtocolAndroid/1.6.4/2aa5b87eb52d24525a3bc4e6c8c03468970468d8/StompProtocolAndroid-1.6.4-sources.jar!/ua/naiksoftware/stomp/StompClient.java</url>
+          <line>215</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.NaikSoftware/StompProtocolAndroid/1.6.4/2aa5b87eb52d24525a3bc4e6c8c03468970468d8/StompProtocolAndroid-1.6.4-sources.jar!/ua/naiksoftware/stomp/StompClient.java</url>
+          <line>226</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/dolphinlib/src/main/java/com/imi/dolphin/dolphinlib/utils/DolphinChatParser.java</url>
+          <line>146</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,45 @@
+package com.imi.dolphin.dolphinchat.adapter.viewholder;
+
+import android.view.View;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.imi.dolphin.dolphinchat.R;
+import com.imi.dolphin.dolphinchat.adapter.OnItemClickListener;
+import com.imi.dolphin.dolphinchat.adapter.QuickReplyAdapter;
+import com.imi.dolphin.dolphinlib.data.model.DolphinChat;
+
+public class ChatQuickReplyViewHolder extends RecyclerView.ViewHolder {
+    private final RecyclerView rvQuickReply;
+    private final TextView tvQuickReplyTime;
+    private final TextView tvTitleMedia;
+
+    public ChatQuickReplyViewHolder(@NonNull View itemView) {
+        super(itemView);
+        rvQuickReply = itemView.findViewById(R.id.rv_received_message);
+        tvQuickReplyTime = itemView.findViewById(R.id.tv_media_received_time);
+        tvTitleMedia = itemView.findViewById(R.id.tv_title_media);
+    }
+
+    public void bindItem(DolphinChat dolphinChat, OnItemClickListener listener){
+        if (dolphinChat.getText() != null && !dolphinChat.getText().isEmpty()) {
+            tvTitleMedia.setText(dolphinChat.getText());
+            tvTitleMedia.setVisibility(View.VISIBLE);
+        } else {
+            tvTitleMedia.setVisibility(View.GONE);
+        }
+        tvQuickReplyTime.setText(String.valueOf(dolphinChat.getCreatedAt()));
+
+        rvQuickReply.setLayoutManager(new LinearLayoutManager(itemView.getContext(), LinearLayoutManager.HORIZONTAL, false));
+
+        QuickReplyAdapter quickReplyAdapter = new QuickReplyAdapter();
+        quickReplyAdapter.setData(dolphinChat.getQuickReplies(), (value, type) -> {
+            rvQuickReply.setVisibility(View.GONE);
+            listener.onItemClick(value, type);
+        });
+        rvQuickReply.setAdapter(quickReplyAdapter);
+    }
+}

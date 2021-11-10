@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dolphin_Chat.iml" filepath="$PROJECT_DIR$/.idea/modules/Dolphin_Chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Dolphin_Chat.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Dolphin_Chat.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test-server/Dolphin_Chat.test-server.iml" filepath="$PROJECT_DIR$/.idea/modules/test-server/Dolphin_Chat.test-server.iml" />
+    </modules>
+  </component>
+</project>

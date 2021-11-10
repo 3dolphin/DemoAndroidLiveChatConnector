@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingStart="4dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_video_send"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CACBCC"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="14dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/img_message_indicator">
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/video_send_message"
+            android:layout_width="250dp"
+            android:layout_height="300dp"
+            android:maxWidth="290dp"
+            app:show_buffering="when_playing"
+            app:controller_layout_id="@layout/playback_control_view"/>
+
+        <TextView
+            android:id="@+id/tv_image_uploading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Uploading"
+            android:padding="8dp"
+            android:visibility="visible"
+            android:background="@android:color/darker_gray"
+            android:layout_gravity="center"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_video_send_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginEnd="4dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/cv_video_send"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:text="11:40" />
+
+    <ImageView
+        android:id="@+id/img_message_indicator"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:src="@drawable/ic_check_grey"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/cv_video_send"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

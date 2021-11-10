@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CACBCC"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="5dp"
+        android:padding="8dp"
+        app:cardCornerRadius="12dp">
+
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/video_received_message"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:maxWidth="290dp"
+            app:show_buffering="when_playing"
+            app:controller_layout_id="@layout/playback_control_view"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_video_received_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        tools:text="11:40" />
+</LinearLayout>

@@ -1,0 +1,3 @@
+include ':test-server'
+rootProject.name='Dolphin Chat'
+include ':app'

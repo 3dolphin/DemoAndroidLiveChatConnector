@@ -1,0 +1,110 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.imi.dolphin.dolphinchat"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField("String", "BASE_URL", '"https://driver.3dolphins.ai:31418"')
+            buildConfigField("String", "BASE_URL_WS", '"wss://driver.3dolphins.ai:31418"')
+            buildConfigField("String", "CLIENT_ID", '"f181392d7b4f13ec1903d6359edf0cf2"')
+            buildConfigField("String", "CLIENT_SECRET", '"0a105a36837fd92504c9b9a1ad8d36a5"')
+        }
+
+        //venom
+        debug {
+            minifyEnabled false
+            buildConfigField("String", "BASE_URL", '"https://adapter.3dolphins.ai:31644"')
+            buildConfigField("String", "BASE_URL_WS", '"wss://adapter.3dolphins.ai:31644"')
+            buildConfigField("String", "CLIENT_ID", '"b7674391db9fce68390998c3c4865442"')
+            buildConfigField("String", "CLIENT_SECRET", '"d501b0b896247c1bb0b8644eaf33d6c7"')
+        }
+
+        //iglo
+//        debug {
+//            minifyEnabled false
+//            buildConfigField("String", "BASE_URL", '"https://iglodev.3dolphins.ai:30029"')
+//            buildConfigField("String", "BASE_URL_WS", '"wss://iglodev.3dolphins.ai:30029"')
+//            buildConfigField("String", "CLIENT_ID", '"fd83f3dbe0faa358fc4734ff23eebbb7"')
+//            buildConfigField("String", "CLIENT_SECRET", '"0cabeb27b873676d11b4a1d025e18544"')
+//        }
+
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
+
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation "androidx.cardview:cardview:1.0.0"
+    implementation "com.google.android.material:material:1.1.0"
+    implementation "androidx.recyclerview:recyclerview:1.1.0"
+
+    implementation "com.squareup.retrofit2:retrofit:2.9.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.9.0"
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.7.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.19'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'com.squareup.okhttp3:okhttp:4.9.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.1'
+    implementation 'com.android.support:support-annotations:28.0.0'
+
+
+    implementation 'commons-codec:commons-codec:1.14'
+    implementation 'commons-net:commons-net:3.6'
+
+    implementation 'com.android.support:multidex:1.0.3'
+
+    implementation 'com.karumi:dexter:5.0.0'
+
+    implementation 'com.github.HBiSoft:PickiT:0.1.11'
+
+    //java websocket
+    api 'org.java-websocket:Java-WebSocket:1.3.6'
+
+    // Image
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+    // Audio & Video
+    implementation 'com.google.android.exoplayer:exoplayer-core:2.10.5'
+    implementation 'com.google.android.exoplayer:exoplayer-dash:2.10.5'
+    implementation 'com.google.android.exoplayer:exoplayer-ui:2.10.5'
+
+    implementation 'com.mindorks.android:prdownloader:0.6.0'
+
+    //Eventbus
+    implementation 'org.greenrobot:eventbus:3.2.0'
+
+    //TimberLog
+    implementation 'com.jakewharton.timber:timber:4.7.1'
+
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.8.5'
+
+
+
+}
